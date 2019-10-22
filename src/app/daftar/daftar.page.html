@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Daftar Komentar</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-content>
+      {{ film }}
+    </ion-card-content>
+  </ion-card>
+  <ion-list>
+    <ion-item>
+      <ion-label fixed>Tambah Komentar</ion-label>
+      <ion-input
+      type="textarea"
+      name="komentar"
+      placeholder="Masukkan komentar anda..">
+      </ion-input>
+    </ion-item>
+  </ion-list>
+ 
+<ion-button name="simpan" size="medium" color="dark" expand="full">POST</ion-button>
+
+</ion-content>
